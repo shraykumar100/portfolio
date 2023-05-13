@@ -42,7 +42,7 @@ const about = {
 	message:
 		"My name is Shray Kumar. I’m a graduate of 2022 from Dr. APJ Abdul Kalam Technical University Lucknow with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like learn more innovative things.",
 	resume:
-		"https://drive.google.com/file/d/1XH9ZlV94A5zVBbYlit9Nvx8NGqrPNuza/view?usp=sharing",
+		"https://drive.google.com/file/d/1vbJ1ot_o74n64lqKGE4KFbbZe68WaWk4/view?usp=sharing",
 };
 
 // PROJECTS SECTION
