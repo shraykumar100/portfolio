@@ -9,7 +9,7 @@ const API = "https://api.github.com";
 // const gitHubQuery = "/repos?sort=updated&direction=desc";
 
 const Project = ({ heading, username, length, specfic }) => {
-	const allReposAPI = `${API}/users/${username}/repossort=updated&direction=desc`;
+	const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
 	const specficReposAPI = `${API}/repos/${username}`;
 
 	const [projectsArray, setProjectsArray] = useState([]);
