@@ -5,23 +5,12 @@ import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
 
-const dummyProject = {
-	name: null,
-	description: null,
-	svn_url: null,
-	stargazers_count: null,
-	languages_url: null,
-	pushed_at: null,
-};
 const API = "https://api.github.com";
 // const gitHubQuery = "/repos?sort=updated&direction=desc";
 
 const Project = ({ heading, username, length, specfic }) => {
-	const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
+	const allReposAPI = `${API}/users/${username}/repossort=updated&direction=desc`;
 	const specficReposAPI = `${API}/repos/${username}`;
-	const dummyProjectsArr = new Array(length + specfic.length).fill(
-		dummyProject
-	);
 
 	const [projectsArray, setProjectsArray] = useState([]);
 
@@ -58,21 +47,19 @@ const Project = ({ heading, username, length, specfic }) => {
 			<Container className="">
 				<h2 className="display-4 pb-5 text-center">{heading}</h2>
 				<Row>
-					{projectsArray.length
-						? projectsArray.map((project, index) => (
-								<ProjectCard
-									key={`project-card-${index}`}
-									id={`project-card-${index}`}
-									value={project}
-								/>
-						  ))
-						: dummyProjectsArr.map((project, index) => (
-								<ProjectCard
-									key={`dummy-${index}`}
-									id={`dummy-${index}`}
-									value={project}
-								/>
-						  ))}
+					{projectsArray.length ? (
+						projectsArray.map((project, index) => (
+							<ProjectCard
+								key={`project-card-${index}`}
+								id={`project-card-${index}`}
+								value={project}
+							/>
+						))
+					) : (
+						<h2 className="display-8 pb-5 text-center text-danger">
+							Github API limit exceeded. Please try again after an hour.
+						</h2>
+					)}
 				</Row>
 			</Container>
 		</Jumbotron>
