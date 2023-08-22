@@ -1,7 +1,7 @@
-import React from "react";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Skeleton from "react-loading-skeleton";
+import React from 'react';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Skeleton from 'react-loading-skeleton';
 // import axios from "axios";
 
 const LiveProjectsCard = ({ value }) => {
@@ -12,11 +12,11 @@ const LiveProjectsCard = ({ value }) => {
 				<Card.Body>
 					<Card.Title as="h3">{name || <Skeleton />} </Card.Title>
 					<Card.Text>
-						{!description ? "" : description || <Skeleton count={3} />}{" "}
+						{!description ? '' : description || <Skeleton count={3} />}{' '}
 					</Card.Text>
 					<Card.Text>
-						{"Tech stacks : "}
-						{!stack ? "" : stack || <Skeleton count={3} />}
+						{'Tech stacks : '}
+						{!stack ? '' : stack || <Skeleton count={3} />}
 					</Card.Text>
 					<hr />
 					{live && ghlink ? (
@@ -33,7 +33,10 @@ const LiveProjectsCard = ({ value }) => {
 const CardButtons = ({ live, ghlink }) => {
 	return (
 		<div className="d-grid gap-2 d-md-block">
-			<a href={live} className="btn btn-outline-secondary mx-2">
+			<a
+				href={live}
+				target=" _blank"
+				className="btn btn-outline-secondary mx-2">
 				<i className="fab fa-github" /> Live link
 			</a>
 			<a

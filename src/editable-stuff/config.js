@@ -5,44 +5,43 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-	gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-	firstName: "Shray",
-	middleName: "",
-	lastName: "Kumar",
-	message: " Passionate about changing the world with technology. ",
+	gradientColors: '#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1',
+	firstName: 'Shray',
+	middleName: '',
+	lastName: 'Kumar',
+	message: ' Passionate about changing the world with technology. ',
 	icons: [
 		{
-			image: "fa-github",
-			url: "https://github.com/shraykumar100",
+			image: 'fa-github',
+			url: 'https://github.com/shraykumar100',
 		},
 		{
-			image: "fa-facebook",
-			url: "https://www.facebook.com/shray.kumar.39/",
+			image: 'fa-facebook',
+			url: 'https://www.facebook.com/shray.kumar.39/',
 		},
 		{
-			image: "fa-instagram",
-			url: "https://www.instagram.com/k.shrey16/",
+			image: 'fa-instagram',
+			url: 'https://www.instagram.com/k.shrey_16/',
 		},
 		{
-			image: "fa-linkedin",
-			url: "https://www.linkedin.com/in/shray-kumar/",
+			image: 'fa-linkedin',
+			url: 'https://www.linkedin.com/in/shray-kumar/',
 		},
 		{
-			image: "fa-twitter",
-			url: "https://twitter.com/shraykumar100",
+			image: 'fa-twitter',
+			url: 'https://twitter.com/shraykumar100',
 		},
 	],
 };
 
 const about = {
 	show: true,
-	heading: "About Me",
-	imageLink: require("../editable-stuff/shray.png"),
+	heading: 'About Me',
+	imageLink: require('../editable-stuff/shray.png'),
 	imageSize: 375,
-	message:
-		"My name is Shray Kumar. I’m a graduate of 2022 from Dr. APJ Abdul Kalam Technical University Lucknow with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like learn more innovative things.",
+	message: `Driven by a passion for innovation and a commitment to delivering exceptional user experiences, I'm eager to take on new challenges in the realm of Front-End Development. With a strong foundation in HTML, CSS, JavaScript, and ReactJS, I'm well-prepared to contribute my skills to projects that prioritize innovation and excellence. As a dedicated team player with effective communication and problem-solving abilities, I'm excited to collaborate with like-minded professionals and bring visionary web applications to life.`,
 	resume:
-		"https://drive.google.com/file/d/1vbJ1ot_o74n64lqKGE4KFbbZe68WaWk4/view?usp=sharing",
+		'https://drive.google.com/file/d/1M6E0Lq_iMKxsNA0zK2QKRul-A0DWvsM4/view?usp=sharing',
 };
 
 // PROJECTS SECTION
@@ -52,10 +51,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
 	show: false,
-	heading: "Recent Github Repos",
-	gitHubUsername: "shraykumar100", //i.e."johnDoe12Gh"
+	heading: 'Recent Github Repos',
+	gitHubUsername: 'shraykumar100', //i.e."johnDoe12Gh"
 	reposLength: 4,
-	specificRepos: [""],
+	specificRepos: [''],
 };
 
 // Leadership SECTION
@@ -85,92 +84,92 @@ const leadership = {
 //Project
 const projects = [
 	{
-		name: "Cryptoview",
+		name: 'Cryptoview',
 		description:
-			"Cryptoview is a cutting-edge web application that provides real-time cryptocurrency data and news updates, streamlining the user experience and decision-making in the crypto market.The app boasts a responsive UI, intuitive navigation, and eye-catching graphics, all powered by Redux Toolkit for efficient state management and enhanced performance.",
-		stack: "ReactJs and Redux Toolkit",
-		live: "https://shraykumar100.github.io/cryptoview/",
-		ghlink: "https://github.com/shraykumar100/cryptoview",
+			'Cryptoview is a cutting-edge web application that provides real-time cryptocurrency data and news updates, streamlining the user experience and decision-making in the crypto market.The app boasts a responsive UI, intuitive navigation, and eye-catching graphics, all powered by Redux Toolkit for efficient state management and enhanced performance.',
+		stack: 'ReactJs and Redux Toolkit',
+		live: 'https://shraykumar100.github.io/cryptoview/',
+		ghlink: 'https://github.com/shraykumar100/cryptoview',
 	},
 	{
-		name: "My Emojee",
+		name: 'My Emojee',
 		description:
-			"A user-friendly and intuitive web application for seamless browsing, searching, and copying of emojis across messaging, social media, and online platforms. Enjoy an extensive emoji collection, keyword-based search, and support for light/dark mode. Simplify your emoji usage with this convenient and responsive web app.",
-		stack: "ReactJs",
-		live: "https://my-emojee.netlify.app/",
-		ghlink: "https://github.com/shraykumar100/my-emojee",
+			'A user-friendly and intuitive web application for seamless browsing, searching, and copying of emojis across messaging, social media, and online platforms. Enjoy an extensive emoji collection, keyword-based search, and support for light/dark mode. Simplify your emoji usage with this convenient and responsive web app.',
+		stack: 'ReactJs',
+		live: 'https://my-emojee.netlify.app/',
+		ghlink: 'https://github.com/shraykumar100/my-emojee',
 	},
 	{
-		name: "Employee Management System",
+		name: 'Employee Management System',
 		description:
-			"A centralized web application for efficient workforce management and streamlined human resources tasks. Features include adding, editing, and deleting employee records, ensuring easy access and seamless interaction with employee information. Enhances organizational efficiency through a user-friendly interface.",
-		stack: "ReactJs",
-		live: "https://employee-mng-system.netlify.app/",
-		ghlink: "https://github.com/shraykumar100/employee-mng-system",
+			'A centralized web application for efficient workforce management and streamlined human resources tasks. Features include adding, editing, and deleting employee records, ensuring easy access and seamless interaction with employee information. Enhances organizational efficiency through a user-friendly interface.',
+		stack: 'ReactJs',
+		live: 'https://employee-mng-system.netlify.app/',
+		ghlink: 'https://github.com/shraykumar100/employee-mng-system',
 	},
 	{
-		name: "Password Generator",
+		name: 'Password Generator',
 		description:
-			"A password generator tool. It utilizes the useState hook, a built-in ReactJS feature, to manage and update the password generation process.The application allows users to generate random passwords based on different requirements, providing flexibility and customization. It incorporates various inbuilt functions to ensure strong and secure password generation.",
-		stack: "ReactJs",
-		live: "https://shray-password-generator.netlify.app/",
-		ghlink: "https://github.com/shraykumar100/password-generator",
+			'A password generator tool. It utilizes the useState hook, a built-in ReactJS feature, to manage and update the password generation process.The application allows users to generate random passwords based on different requirements, providing flexibility and customization. It incorporates various inbuilt functions to ensure strong and secure password generation.',
+		stack: 'ReactJs',
+		live: 'https://shray-password-generator.netlify.app/',
+		ghlink: 'https://github.com/shraykumar100/password-generator',
 	},
 	{
-		name: "Giphy",
+		name: 'Giphy',
 		description:
-			"Gif search project that dynamically displays search results on the webpage. Utilized the Giphy API to fetch data and leveraged DOM manipulation for real-time rendering. Incorporated EventListeners, for loops, and functional programming techniques to enhance functionality.",
-		stack: "HTML, CSS, and JavaScriptt",
-		live: "https://shraykumar100.github.io/web_projects/giphy/",
-		ghlink: "https://github.com/shraykumar100/web_projects/tree/main/giphy",
+			'Gif search project that dynamically displays search results on the webpage. Utilized the Giphy API to fetch data and leveraged DOM manipulation for real-time rendering. Incorporated EventListeners, for loops, and functional programming techniques to enhance functionality.',
+		stack: 'HTML, CSS, and JavaScriptt',
+		live: 'https://shraykumar100.github.io/web_projects/giphy/',
+		ghlink: 'https://github.com/shraykumar100/web_projects/tree/main/giphy',
 	},
 	{
-		name: "Weather App",
+		name: 'Weather App',
 		description:
 			"Weather application utilizing the OpenWeather API for retrieving and displaying weather information of any city. Implemented with JavaScript's fetch API to fetch data and manipulated the DOM to present the weather details on the web page.",
-		stack: "HTML, CSS, and JavaScript",
-		live: "https://shraykumar100.github.io/web_projects/weather_app/",
+		stack: 'HTML, CSS, and JavaScript',
+		live: 'https://shraykumar100.github.io/web_projects/weather_app/',
 		ghlink:
-			"https://github.com/shraykumar100/web_projects/tree/main/weather_app",
+			'https://github.com/shraykumar100/web_projects/tree/main/weather_app',
 	},
 ];
 
 // SKILLS SECTION
 const skills = {
 	show: true,
-	heading: "Skills",
+	heading: 'Skills',
 	hardSkills: [
-		{ name: "HTML", value: 80 },
-		{ name: "CSS", value: 70 },
-		{ name: "JavaScript", value: 90 },
-		{ name: "ReactJS", value: 65 },
-		{ name: "NodeJS", value: 60 },
-		{ name: "UI/UX", value: 60 },
+		{ name: 'HTML', value: 80 },
+		{ name: 'CSS', value: 70 },
+		{ name: 'JavaScript', value: 90 },
+		{ name: 'ReactJS', value: 65 },
+		{ name: 'NodeJS', value: 60 },
+		{ name: 'UI/UX', value: 60 },
 	],
 	softSkills: [
-		{ name: "Goal-Oriented", value: 80 },
-		{ name: "Collaboration", value: 90 },
-		{ name: "Positivity", value: 75 },
-		{ name: "Adaptability", value: 85 },
-		{ name: "Problem Solving", value: 75 },
-		{ name: "Empathy", value: 90 },
-		{ name: "Organization", value: 70 },
-		{ name: "Creativity", value: 90 },
+		{ name: 'Goal-Oriented', value: 80 },
+		{ name: 'Collaboration', value: 90 },
+		{ name: 'Positivity', value: 75 },
+		{ name: 'Adaptability', value: 85 },
+		{ name: 'Problem Solving', value: 75 },
+		{ name: 'Empathy', value: 90 },
+		{ name: 'Organization', value: 70 },
+		{ name: 'Creativity', value: 90 },
 	],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
 	show: true,
-	heading: "Get In Touch",
+	heading: 'Get In Touch',
 	message:
 		"I'm currently looking for full-time Software Engineering or Web Development opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-	email: "shraykumar100@gmail.com",
+	email: 'shraykumar100@gmail.com',
 };
 
 const experiences = {
 	show: false,
-	heading: "Experiences",
+	heading: 'Experiences',
 	data: [
 		// {
 		// 	role: """,
